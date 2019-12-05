@@ -4,3 +4,4 @@ migration/alembic/versions/*.py
 */__pycache__/*
 *.pyc
 .DS_Store
+er.png

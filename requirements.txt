@@ -4,3 +4,4 @@ sshtunnel
 pymysql
 ex-tools
 inflection
+eralchemy
