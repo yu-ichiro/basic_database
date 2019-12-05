@@ -1,7 +1,10 @@
 from sys import argv
 
 from eralchemy import render_er
-from model import BaseObject
+try:
+    from model import BaseObject
+except ImportError:
+    from .model import BaseObject
 
 
 def render(output='./er.png'):
